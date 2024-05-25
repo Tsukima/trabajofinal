@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; 
+}
+
+
+header {
+    background-color: blueviolet; 
+    padding: 10px;
+    text-align: center;
+    height: 10px 10px;
+    width: 1px 1px;
+    
+    
+    h1 {
+        color: white;
+    }
+    
+    h2 {
+        color: white;
+    }
+}    
+    
+div {
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: center; 
+    height: 3px 3px; /*altura*/
+    width: 3px 3px; /*ancho*/
+    box-sizing: 1px;
+        
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+section {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+
+ul {
+    list-style: center center;
+    padding: 10;
+    margin: 10;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.my-button:hover {
+    background-color: blueviolet;
+}
+  
+.my-button:active {
+    background-color: blueviolet;
+}
+
+
